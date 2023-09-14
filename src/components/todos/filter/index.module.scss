@@ -1,0 +1,23 @@
+@import '../../../styles/abstract/variables';
+
+.list {
+  text-align: center;
+}
+
+.list > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.active {
+  color: $green-color;
+}
+
+.button {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: $light-green-color;
+}

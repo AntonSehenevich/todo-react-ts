@@ -1,0 +1,10 @@
+@import '../../styles/abstract/variables';
+
+.icon {
+  cursor: pointer;
+  color: $green-color;
+}
+
+.icon:hover {
+  color: $light-green-color;
+}

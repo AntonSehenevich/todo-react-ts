@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<li
+  className="item"
+  draggable={true}
+  onDragEnd={[MockFunction]}
+  onDragEnter={[MockFunction]}
+  onDragOver={[Function]}
+  onDragStart={[MockFunction]}
+>
+  <div
+    className="container"
+  >
+    <svg
+      className="icon"
+      data-testid="circle-icon"
+      height={30}
+      onClick={[Function]}
+      viewBox="0 0 50 50"
+      width={30}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="25"
+        cy="25"
+        fill="transparent"
+        r="20"
+        stroke="currentColor"
+        strokeWidth="3"
+      />
+    </svg>
+    <button
+      className="text"
+      onClick={[Function]}
+      type="button"
+    />
+    <svg
+      className="icon icon-delete"
+      data-testid="close-icon"
+      height={30}
+      onClick={[Function]}
+      viewBox="0 0 50 50"
+      width={30}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M 5 5 L 45 45 M 45 5 L 5 45"
+        fill="transparent"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeWidth="3"
+      />
+    </svg>
+  </div>
+</li>
+`;

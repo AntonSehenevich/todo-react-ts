@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div>
+    <span>
+      1
+       
+      item
+       left
+    </span>
+  </div>
+  <div>
+    <ul
+      className="list"
+      data-testid="todos-filter"
+    >
+      <li>
+        <button
+          className="button active"
+          onClick={[Function]}
+          type="button"
+        >
+          All
+        </button>
+      </li>
+      <li>
+        <button
+          className="button"
+          onClick={[Function]}
+          type="button"
+        >
+          Active
+        </button>
+      </li>
+      <li>
+        <button
+          className="button"
+          onClick={[Function]}
+          type="button"
+        >
+          Completed
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <button
+      className="delete-completed-button"
+      onClick={[MockFunction]}
+      type="button"
+    >
+      Clear completed
+    </button>
+  </div>
+</div>
+`;

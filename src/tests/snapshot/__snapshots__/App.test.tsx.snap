@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <div
+    className="content"
+  >
+    <div
+      className="container"
+    >
+      <svg
+        className="logo"
+        data-testid="logo-icon"
+        height={70}
+        viewBox="-10 10 50 40"
+        width={50}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M 5 45 H 25 V 5"
+          fill="transparent"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="2"
+          transform="rotate(45 15 25)"
+        />
+      </svg>
+      <h3
+        className="title"
+      >
+        TODO
+      </h3>
+    </div>
+    <div
+      className="container"
+    >
+      <div
+        className="container"
+        data-testid="add-todo"
+      >
+        <input
+          className="input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Something to do?"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

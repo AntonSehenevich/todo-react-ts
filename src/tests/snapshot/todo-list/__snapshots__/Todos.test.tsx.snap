@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="container"
+    data-testid="add-todo"
+  >
+    <input
+      className="input"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Something to do?"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;

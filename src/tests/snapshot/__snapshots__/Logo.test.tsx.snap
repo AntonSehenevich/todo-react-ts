@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<svg
+  data-testid="logo-icon"
+  height={10}
+  viewBox="-10 10 50 40"
+  width={10}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M 5 45 H 25 V 5"
+    fill="transparent"
+    stroke="currentColor"
+    strokeLinecap="round"
+    strokeWidth="2"
+    transform="rotate(45 15 25)"
+  />
+</svg>
+`;

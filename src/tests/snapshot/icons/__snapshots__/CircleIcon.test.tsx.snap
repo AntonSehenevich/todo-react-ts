@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<svg
+  className="icon"
+  data-testid="circle-icon"
+  height={10}
+  onClick={[MockFunction]}
+  viewBox="0 0 50 50"
+  width={10}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+    cx="25"
+    cy="25"
+    fill="transparent"
+    r="20"
+    stroke="currentColor"
+    strokeWidth="3"
+  />
+</svg>
+`;

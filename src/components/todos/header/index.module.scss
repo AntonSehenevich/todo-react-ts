@@ -1,0 +1,8 @@
+@import '../../../styles/abstract/variables';
+
+.container {
+  height: auto;
+  border-radius: 5px;
+  background-color: $background-color;
+  padding: 10px;
+}

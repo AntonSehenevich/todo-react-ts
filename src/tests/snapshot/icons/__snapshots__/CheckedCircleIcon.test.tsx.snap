@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<svg
+  className="icon"
+  data-testid="checked-circle-icon"
+  height={10}
+  onClick={[MockFunction]}
+  viewBox="0 0 50 50"
+  width={10}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <circle
+    cx="25"
+    cy="25"
+    fill="transparent"
+    r="20"
+    stroke="currentColor"
+    strokeWidth="3"
+  />
+  <path
+    d="M 5 35 H 15 V 10"
+    fill="transparent"
+    stroke="currentColor"
+    strokeLinecap="round"
+    strokeWidth="3"
+    transform="rotate(45 7 15) translate(16 -14)"
+  />
+</svg>
+`;

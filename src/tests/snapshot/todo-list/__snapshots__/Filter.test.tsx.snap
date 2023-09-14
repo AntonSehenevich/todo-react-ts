@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<ul
+  className="list"
+  data-testid="todos-filter"
+>
+  <li>
+    <button
+      className="button active"
+      onClick={[Function]}
+      type="button"
+    >
+      All
+    </button>
+  </li>
+  <li>
+    <button
+      className="button"
+      onClick={[Function]}
+      type="button"
+    >
+      Active
+    </button>
+  </li>
+  <li>
+    <button
+      className="button"
+      onClick={[Function]}
+      type="button"
+    >
+      Completed
+    </button>
+  </li>
+</ul>
+`;

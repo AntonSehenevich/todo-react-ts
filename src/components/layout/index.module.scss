@@ -1,0 +1,15 @@
+@import '../../styles/abstract/variables';
+
+.layout {
+  background: linear-gradient(to right, $light-green-color, $green-color);
+  background-size: 100% 300px;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  padding-top: 50px;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 640px;
+  max-height: 480px;
+}
